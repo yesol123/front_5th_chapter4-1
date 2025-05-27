@@ -12,7 +12,7 @@ export default function Home() {
           height={38}
           priority
         />
-        됐나?
+        <p>넥스트 오랜만이야</p>
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
