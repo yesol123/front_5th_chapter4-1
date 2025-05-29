@@ -5,11 +5,11 @@
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="https://github.com/user-attachments/assets/7d4ad27e-9407-49e3-b609-a158ff3501b4" width="100%">
+      <img src="https://github.com/user-attachments/assets/5afc89e8-8649-4663-a9db-9a3aa848af34" width="100%">
     </td>
     <td style="vertical-align: top; padding-left: 20px;">
       <h3>배포 파이프라인 개요</h3>
-      <p>GitHub Actions에 워크플로우를 작성해 </br>다음과 같이 배포가 진행되도록 구성했습니다.</p>
+      <p>GitHub Actions에 워크플로우를 작성해 <br>다음과 같이 배포가 진행되도록 구성했습니다.</p>
       <ol>
         <li><code>actions/checkout</code>으로 코드 가져오기</li>
         <li><code>npm ci</code> 명령어로 의존성 설치</li>
