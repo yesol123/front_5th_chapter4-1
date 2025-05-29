@@ -2,7 +2,8 @@
 
 ## 개요
 
-![배포 파이프라인 다이어그램](./your-diagram-file.png) <!-- 본인 다이어그램 파일 경로 삽입 -->
+![image](https://github.com/user-attachments/assets/7d4ad27e-9407-49e3-b609-a158ff3501b4)
+<!-- 본인 다이어그램 파일 경로 삽입 -->
 
 GitHub Actions에 워크플로우를 작성해 다음과 같이 배포가 진행되도록 구성했습니다.
 
@@ -34,5 +35,11 @@ GitHub Actions에 워크플로우를 작성해 다음과 같이 배포가 진행
 | 주요 JS 파일 응답 속도 | 500ms | **120ms** |
 | 전체 요청 수 | 32 | 32 (동일) |
 | `x-cache` 헤더 | Miss from CloudFront | **Hit from CloudFront** |
+
+![image](https://github.com/user-attachments/assets/10aa3c36-eb29-4d4b-a184-d20e2d4be46e)
+![image](https://github.com/user-attachments/assets/cd3699f5-b432-4aeb-877e-1fcb7a4f9427)
+
+
+
 
 **결론**: CloudFront CDN 도입 후 주요 정적 리소스 응답 속도가 약 3~4배 빨라졌으며, 전체 페이지 로딩 시간이 절반 이하로 감소하였습니다. 이는 사용자 경험(UX) 및 SEO에도 긍정적 영향을 미칩니다.
